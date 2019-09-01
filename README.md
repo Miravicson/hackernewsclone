@@ -1,33 +1,28 @@
 # Hackernews Clone
 
-- A clone of hackernews built with React skill acquired from reading *Road to learn React* by Robin Wieruch.
-
+- A clone of hackernews built with React skill acquired from reading _Road to learn React_ by Robin Wieruch.
 
 ## Screen Shots
 
-
 ### Screenshot of implementation
 
-![Screen shot](https://github.com/Miravicson/pure-react-slackclone/blob/master/screenshot.png)
+![Screen shot](https://github.com/Miravicson/hackernewsclone/blob/master/screenshot.png)
 
-
-## [Heroku Deployment]( https://slackclonev.herokuapp.com/).
-
+## [Heroku Deployment](https://slackclonev.herokuapp.com/).
 
 ## Desired List of Features
 
 Here are the features it should have:
 
-- A list of Channels
-- A list of Users
-- Maintain state for the currently-selected Channel or User
-- Click a Channel or User to select it
-- Only one Channel or User can be selected at a time
-- Each Channel and User has its own history of messages
-- Generate some fake messages for each channel
-- Show an input box at the bottom, only when a Channel or User is selected
-- Typing in the input box and hitting ENTER should add that message to the selected Channel/User and clear the input.
-
+- Fetches top news stories from hackernews API
+- A list of stories
+- Can sort list based on table header
+- Can search for keywords and return news that matches the keywords
+- Caches search results
+- Implements pagination on fetching results
+- Tests are implemented using Jest and Enzyme
+- News Item are can be deleted
+- Uses react higher order functions
 
 ## Available Scripts
 
@@ -41,21 +36,17 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
 
-
 ### `yarn build`
 
 Creates a production build
 
-### `yarn start` 
+### `yarn start`
 
 Runs the production build of the application. It uses the npm package `serve`. `serve` runs the production build on port `5000` by default.
 
-
-## You can get your copy of *Pure React* by Dave Ceddia, [here](https://www.amazon.com/Pure-React-step-step-mastering-ebook/dp/B073V8HYRK) cheers guys 🎂😎.
+## You can get your copy of _The Road to Learn React_ by Robin Wieruch, [here](https://www.amazon.com/Road-learn-React-pragmatic-React-js/dp/172004399X/ref=sr_1_1?keywords=the+road+to+learn+react&qid=1567329650&s=gateway&sr=8-1) cheers guys 🎂😎.
 
 ### Feel free to pull and modify the repository as you like.
-
-
 
 ### setup for testing
 
