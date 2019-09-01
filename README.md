@@ -8,7 +8,7 @@
 
 ![Screen shot](https://github.com/Miravicson/hackernewsclone/blob/master/screenshot.png)
 
-## [Heroku Deployment](https://slackclonev.herokuapp.com/).
+## [Heroku Deployment](https://hackernewsclonev.herokuapp.com/).
 
 ## Desired List of Features
 
