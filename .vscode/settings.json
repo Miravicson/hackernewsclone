@@ -1,0 +1,25 @@
+{
+  "editor.formatOnSave": true,
+  "editor.wordWrap": "on",
+  "editor.formatOnPaste": true,
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "eslint.autoFixOnSave": true,
+  "eslint.alwaysShowStatus": true,
+  "prettier.disableLanguages": ["js"],
+  "files.autoSave": "onFocusChange",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "files.associations": {
+    "*.js": "javascriptreact"
+  },
+  "prettier.semi": false,
+  "prettier.tabWidth": 2,
+  "mocha.enabled": true,
+  "jest.debugMode": true
+}
